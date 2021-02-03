@@ -1,6 +1,6 @@
 {
     "name": "react-material-gk",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Components for material ui with react, compatible with reactcoregk library",
     "main": "./index.js",
     "license": "MIT",
