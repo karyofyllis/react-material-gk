@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/YOUR_COMPONENT.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve('lib'),
-    filename: 'YOUR_COMPONENT.js',
+    filename: 'index.js',
     libraryTarget: 'commonjs2',
   },
   module: {
@@ -31,7 +31,7 @@ module.exports = {
     }
   },
   externals: {
-    // Don't bundle react or react-dom      
+    // Don't bundle react or react-dom
     react: {
       commonjs: "react",
       commonjs2: "react",
