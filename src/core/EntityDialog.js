@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import BaseDialog from "./Common/BaseDialog";
+import BaseDialog from "./BaseDialog";
 import {useEntityProgress} from "reactcoregk/hooks";
 
 const EditDialog = (props) => {
